@@ -470,7 +470,6 @@ def help_npc():
         print("'You know what? Why not! Let's see what treasures we can find!'")
         print("\nWith your new companion by your side, you press deeper into the temple.")
         tony_adventure()  # Function to continue adventure with Tony
-#---------------------------------------------------------------------------------------------------------------------
 
 def continue_adventure_without_tony():
     Tony = False
@@ -759,7 +758,7 @@ def hidden_cave():
         # Player exits the cave
         print("\nYou decide to exit the cave and find yourself back near the temple.")
         return_to_temple()
-#------------------------------------------------------------------------------------------------------------------------------------------
+        
 def post_aura_encounter():
     global Tony, player_power
     
